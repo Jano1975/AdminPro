@@ -13,6 +13,7 @@ import { PAGES_ROUTES } from './pages.routes';
 
 import { IncrementadorComponent } from '../components/incrementador/incrementador.component';
 import { ComponentsModule } from '../components/components.module';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 @NgModule({
 declarations: [
@@ -20,7 +21,8 @@ declarations: [
     ProgressComponent,
     Graficas1Component,
     PagesComponent,
-    IncrementadorComponent
+    IncrementadorComponent,
+    AccountSettingsComponent
 ], exports: [
     DashboardComponent,
     ProgressComponent,

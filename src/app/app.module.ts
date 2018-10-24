@@ -13,6 +13,9 @@ import { PagesModule } from './pages/pages.module';
 import { FormsModule } from '@angular/forms';
 
 
+// Servicios
+import { ServiceModule } from './services/service.module';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,7 +27,8 @@ import { FormsModule } from '@angular/forms';
     BrowserModule,
     APP_ROUTE,
     PagesModule,
-    FormsModule
+    FormsModule,
+    ServiceModule
   ],
   providers: [],
   bootstrap: [AppComponent]
