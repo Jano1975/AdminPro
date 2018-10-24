@@ -14,6 +14,8 @@ import { PAGES_ROUTES } from './pages.routes';
 import { IncrementadorComponent } from '../components/incrementador/incrementador.component';
 import { ComponentsModule } from '../components/components.module';
 import { AccountSettingsComponent } from './account-settings/account-settings.component';
+import { PromesasComponent } from './promesas/promesas.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 @NgModule({
 declarations: [
@@ -22,7 +24,9 @@ declarations: [
     Graficas1Component,
     PagesComponent,
     IncrementadorComponent,
-    AccountSettingsComponent
+    AccountSettingsComponent,
+    PromesasComponent,
+    RxjsComponent
 ], exports: [
     DashboardComponent,
     ProgressComponent,
